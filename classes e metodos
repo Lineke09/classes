@@ -1,0 +1,27 @@
+class carro:
+    def _init_(self, marca, cor, cavalos):
+        self.marca = marca
+        self.cor = cor
+        self.cavalos = cavalos
+
+    def Ligar(self):
+        print('Bem vindo de volta')
+
+    def Desligar(self):
+        print('até a próxima')
+
+    def ExibirInformacoesDesteCarro(self):
+        print(self.marca, self.cor, self.cavalos)
+    pass
+
+carro1 = Carro('fiat','vermelho','20')
+carro1.Ligar()
+carro1.desligar()
+carro1.ExibirInformacoesDesteCarro()
+carro2 = Carro('audi','prata','40')
+carro3 = Carro('BMW','azul','70')
+print(carro1.marca,carro1.cor,carro1.cavalos)
+print(carro2.marca,carro2.cor,carro2.cavalos)
+print(carro3.marca,carro3.cor,carro3.cavalos)
+
+
